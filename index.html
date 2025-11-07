@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<title>Catalog</title>
+	</head>
+	<body>
+		<div class="app">
+			<header class="header">
+				<h1>Catalog</h1>
+			</header>
+
+			<div class="input-search--container">
+				<input
+					placeholder="Write what you want to find?"
+					class="input-search"
+					type="text"
+				/>
+				<button class="button-18" role="button">Search</button>
+			</div>
+			<hr />
+
+			<div class="buttons-container">
+				<button class="button-filtres all">All</button>
+				<button class="button-filtres top">Topwear</button>
+				<button class="button-filtres bottom">Bottomwear</button>
+				<button class="button-filtres jacket">Jacket</button>
+				<button class="button-filtres watch">Watch</button>
+			</div>
+
+			<div class="cards-container">
+				<div class="card" data-category="topwear">
+					<img class="img-card" src="image/t-shirt.jpg" alt="catalog-img" />
+					<h2 class="card-h2">REGULAR WHITE T-SHIRT</h2>
+					<p class="price">$30</p>
+				</div>
+				<div class="card" data-category="bottomwear">
+					<img class="img-card" src="image/short.webp" alt="catalog-img" />
+					<h2 class="card-h2">BEIGE SHORT SKIRT</h2>
+					<p class="price">$49</p>
+				</div>
+				<div class="card" data-category="watch">
+					<img class="img-card" src="image/watch.webp" alt="catalog-img" />
+					<h2 class="card-h2">SPORTY SMARTWATCH</h2>
+					<p class="price">$98</p>
+				</div>
+
+				<div class="card" data-category="topwear">
+					<img class="img-card" src="image/top.jpg" alt="catalog-img" />
+					<h2 class="card-h2">BASIC KNITTED TOP</h2>
+					<p class="price">$28</p>
+				</div>
+
+				<div class="card" data-category="jacket">
+					<img class="img-card" src="image/jet.jpg" alt="catalog-img" />
+					<h2 class="card-h2">BLACK LEATHER JACKET</h2>
+					<p class="price">$129</p>
+				</div>
+
+				<div class="card" data-category="bottomwear">
+					<img class="img-card" src="image/pink.jpg" alt="catalog-img" />
+					<h2 class="card-h2">STYLISH PINK TROUSERS</h2>
+					<p class="price">$89</p>
+				</div>
+				<div class="card" data-category="jacket">
+					<img class="img-card" src="image/brown.jpg" alt="catalog-img" />
+					<h2 class="card-h2">BROWN MAN'S JACKET</h2>
+					<p class="price">$300</p>
+				</div>
+				<div class="card">
+					<img class="img-card" src="image/comey.png" alt="catalog-img" />
+					<h2 class="card-h2" id="bottomwear">GRAY PANTS</h2>
+					<p class="price">$44</p>
+				</div>
+			</div>
+		</div>
+
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
